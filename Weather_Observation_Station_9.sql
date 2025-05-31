@@ -1,4 +1,4 @@
-
+select distinct city from station where NOT REGEXP_LIKE (UPPER(city),'^[AEIOU].*$');
 
 
 /*
